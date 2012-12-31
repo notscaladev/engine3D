@@ -3,3 +3,5 @@
 /fireblast/FEditor/obj
 /fireblast/fireblast.audio/Debug
 /fireblast/*.sdf
+/fireblast/fireblast.color/Debug
+/fireblast/ipch
