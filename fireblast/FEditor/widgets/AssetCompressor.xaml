@@ -1,0 +1,56 @@
+﻿<Window x:Class="FEditor.widgets.AssetCompressor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AssetCompressor" Height="300" Width="300">
+    <Grid>
+        <TextBox 
+            HorizontalAlignment="Left" 
+            Height="23" Margin="10,10,0,0" 
+            TextWrapping="Wrap"
+            Name="FileNameTextBox"
+            VerticalAlignment="Top" Width="153"/>
+        <Button 
+            Content="Open solution" 
+            HorizontalAlignment="Left" 
+            Margin="182,11,0,0"
+            Name="BrowseButton"
+            VerticalAlignment="Top"
+            Click="onBrowseButtonClick"
+            Width="100"/>
+        <TextBox 
+            HorizontalAlignment="Left" 
+            Height="23" Margin="10,51,0,0" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"
+            Name="InputFolderName"
+            Width="153"/>
+        <Button 
+            Content="Input folder" 
+            HorizontalAlignment="Left" 
+            Margin="182,52,0,0"
+            Click="onInputButtonClick"
+            VerticalAlignment="Top" 
+            Width="100"/>
+        <TextBox 
+            HorizontalAlignment="Left" 
+            Height="23" Margin="10,90,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            Name="ExportFolderName"
+            Width="153"/>
+        <Button 
+            Content="Export folder" 
+            HorizontalAlignment="Left" 
+            Margin="182,91,0,0"
+            Click="onExportFolderClick"
+            VerticalAlignment="Top" 
+            Width="100"/>
+        <Button 
+            Content="Export as texture" 
+            HorizontalAlignment="Left" 
+            Margin="10,138,0,0" 
+            VerticalAlignment="Top" 
+            Width="272"
+            Click="onExportButtonClick"/>
+    </Grid>
+</Window>
