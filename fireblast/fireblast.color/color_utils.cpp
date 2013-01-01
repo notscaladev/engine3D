@@ -8,7 +8,6 @@ public:
     {
     }
 
-
 	CColorUtils::~CColorUtils(void)
 	{
 	}

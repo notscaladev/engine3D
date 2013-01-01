@@ -1,4 +1,5 @@
 #pragma once
+#define INT_BITS_TO_FLOAT_MASK 0xFFFFFFFF
 class ColorUtils
 {
 public:

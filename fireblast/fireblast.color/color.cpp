@@ -29,6 +29,15 @@ private:
 public:
 	CColor::CColor(void){}
 
+	CColor::CColor(float red, float green, float blue)
+	{
+		
+	}
+
+	CColor::CColor(float pRed, float pGreen, float pBlue, float pAlpha)
+	{
+	}
+
     CColor::~CColor(void){}
 
 	float Color::getRedColor()
