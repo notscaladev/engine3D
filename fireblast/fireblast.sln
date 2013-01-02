@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fireblast.audio", "fireblas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libogg", "libogg\libogg.vcxproj", "{E2433846-03B0-4D9D-B2E5-DFF78E28E23F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvorbis", "libvorbis\libvorbis.vcxproj", "{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,16 @@ Global
 		{E2433846-03B0-4D9D-B2E5-DFF78E28E23F}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{E2433846-03B0-4D9D-B2E5-DFF78E28E23F}.Release|Win32.ActiveCfg = Release|Win32
 		{E2433846-03B0-4D9D-B2E5-DFF78E28E23F}.Release|Win32.Build.0 = Release|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Debug|Win32.ActiveCfg = Debug|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Debug|Win32.Build.0 = Debug|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Release|Any CPU.ActiveCfg = Release|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Release|Win32.ActiveCfg = Release|Win32
+		{227CCF5C-8C5C-4FB2-852C-DF88A4F0E163}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
